@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="Container-heading">Expense Tracker</h1>
+
+        <div class="summary-container">
+            <p>Your Balance</p>
+            <h1 class="balance">LKR 0.00</h1>
+            <div class="income-balance-container">
+                <div class="income-container">
+                    <p class="income-text">Income(+)</p>
+                    <p class="income-amount">LKR 0.00</p>
+                </div>
+                <div class="expense-container">
+                    <p class="expense-text">Expense(-)</p>
+                    <p class="expense-amount">LKR 0.00</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="details-container">
+            <div class="transaction">
+                <p class="transaction-heading">Transactions</p>
+                <ul class="transactions">
+                    
+                </ul>
+            </div>
+
+            <div class="add-transaction">
+                <p class="transaction-adding">Add Transaction</p>
+
+
+                <form action="#" >
+
+                    <div class="forms">
+                        <div class="form-group">
+                            <label for="description">Description</label>
+                            <input type="text" id="description" placeholder="Enter description.." required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="amount">Amount</label>
+                            <input type="number" id="amount" placeholder="Enter amount.." required />
+                            <small>Use negavite (-) for expenses</small>
+                        </div> 
+                    </div>
+                    <button type="submint">Add Transaction</button>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
